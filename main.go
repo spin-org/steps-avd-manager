@@ -163,6 +163,7 @@ func main() {
 				"-no-snapshot",
 				"-wipe-data",
 				"-partition-size", "2048",
+				"-camera-back","emulated",
 				"-gpu", "swiftshader_indirect"}, startCustomFlags...)...),
 			func(cmd *command.Model) func() (string, error) { // need to start the emlator as a detached process
 				return func() (string, error) {

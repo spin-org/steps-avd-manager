@@ -93,7 +93,7 @@ inputs:
       summary: Flags used when running the command to create the emulator.
       description: Flags used when running the command to create the emulator.
       is_required: false
-  - start_command_flags: "-camera-back none -camera-front none"
+  - start_command_flags: "-camera-back emulated -camera-front none"
     opts:
       category: Debug
       title: "Start AVD command flags"
